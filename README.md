@@ -3,7 +3,7 @@
 Implementation of an Adaptive Large Neighborhood Search algorithm to optimize a vehicle routing problem.
 This code was written to obtain the maximal score for the last assignment of the [discrete optimization course]{https://www.coursera.org/learn/discrete-optimization}.
 
-# Motivation
+## Motivation
 
 Discrete optimization is everywhere! The Vehicle Routing Problem (VRP) is a well known optimization problem which (attempts) to answer the question:
 
@@ -11,6 +11,10 @@ Discrete optimization is everywhere! The Vehicle Routing Problem (VRP) is a well
 
 Variations of this question are interesting in many practical applications.
 
-# Running the code
+## Running the code
 
 In order to test the code, run `python solver_ALNS.py ./data/vrp_5_4_1` or any other file in the data folder.
+
+## The algorithm
+
+We give an in depth overview of the implemented algorithm at my [github page](https://thellemans.github.io/Portfolio-Tim-Hellemans/).
